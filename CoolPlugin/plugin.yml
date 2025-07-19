@@ -1,0 +1,35 @@
+name: CoolPlugin
+version: 1.0.0
+api: 5.0.0
+main: CoolPlugin\Main
+author: ansar10123
+description: A cool PocketMine-MP plugin with awesome features generated totally by pocketkimi AI!
+
+commands:
+  cool:
+    description: "Cool plugin main command"
+    usage: "/cool [subcommand]"
+    permission: coolplugin.use
+  stats:
+    description: "View your statistics"
+    usage: "/stats"
+    permission: coolplugin.stats
+  tpa:
+    description: "Request to teleport to a player"
+    usage: "/tpa <player>"
+    permission: coolplugin.teleport
+  tpaccept:
+    description: "Accept a teleport request"
+    usage: "/tpaccept"
+    permission: coolplugin.teleport
+
+permissions:
+  coolplugin.use:
+    description: "Use cool plugin commands"
+    default: true
+  coolplugin.stats:
+    description: "View statistics"
+    default: true
+  coolplugin.teleport:
+    description: "Use teleport commands"
+    default: true

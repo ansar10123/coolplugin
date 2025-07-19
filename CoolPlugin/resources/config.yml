@@ -1,0 +1,33 @@
+# CoolPlugin Configuration
+# Created: 2025-07-19 18:01:06
+# Author: ansar10123
+
+# Plugin Settings
+plugin:
+  enabled: true
+  debug: false
+
+# Particle Settings
+particles:
+  enabled: true
+  random_spawn_chance: 10  # Percentage chance for random particles
+  welcome_particles: true
+
+# Teleport Settings
+teleport:
+  request_timeout: 30  # Seconds before request expires
+  allow_cross_world: true
+
+# Statistics Settings
+stats:
+  track_movement: true
+  track_blocks: true
+  milestone_celebration: true
+  milestone_interval: 50  # Blocks for milestone
+
+# Command Settings
+commands:
+  max_speed_level: 10
+  default_speed_level: 1
+  heal_with_particles: true
+  flight_toggle: true
