@@ -128,28 +128,4 @@ class PlayerEventListener implements Listener {
 
 ---
 
-## About This Project
-
-This plugin was generated using a custom AI model trained specifically for PocketMine-MP development. It serves as a demonstration of:
-
-- API-specific training improving code quality
-- Modern plugin architecture patterns
-- Comprehensive feature implementation
-
-The goal is to showcase how specialized AI models can produce production-ready code that follows framework best practices.
-
----
-
-## Contributing
-
-Feel free to submit issues, feature requests, or pull requests. This project serves as both a functional plugin and a reference implementation.
-
----
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
 **Discord**: [discord.gg/pocketkimi](https://discord.gg/pocketkimi) for questions and discussion.
